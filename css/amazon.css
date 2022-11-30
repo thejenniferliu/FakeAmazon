@@ -11,9 +11,10 @@
 
 h2{
     margin-top: 9px;
-    margin-bottom: 10px;
+    margin-bottom: 3px;
     align-self: start;
-    margin-left: 2em;
+    margin-left: 1.1em;
+    font-weight: normal;
 
 }
 
@@ -25,24 +26,33 @@ h2{
     display: flex;
     flex-direction: column;
     align-items: center;
-    max-width: 350px;
+    max-width: 325px;
     margin: auto;
     padding: 0px;
+}
+
+div{
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+p1{
+    font-size: 12px;
+    font-weight: normal;
+    align-self: start;
+    margin-right: 6em;
+    
 }
 
 h3{
     font-size: 12px;
     font-weight: normal;
     align-self: start;
-    margin-left: 4em;
+    margin-left: 2.5em;
 
 }
 
-.pw{
-    display:inline-block;
-}
 input[type=text]{
-    width: 70%;
+    width: 80%;
     border-radius: 0%;
     padding-top: 3px;
     padding-bottom: 3px;
@@ -53,11 +63,16 @@ button{
     background: rgb(238, 183, 3);
     margin-top: 20px;
     margin-bottom: 20px;
-    width: 72%;
+    width: 82%;
     border-radius: 0%;
     padding-top: 3px;
     padding-bottom: 3px;
 }
+p{
+    font-size: 12px; 
+    text-align: center; 
+}
+
 #button1{
     background-color: lightgray;
     display:flex;
@@ -66,6 +81,7 @@ button{
     width: 300px;
     margin:auto;
     margin-top: 15px;
+    margin-bottom: 20px;
     
 }
 
@@ -75,7 +91,8 @@ a{
     margin-left: 4em ;
     align-self: start;
     font-size: 12px;
-    margin-bottom: 10px;
+    margin-bottom: 12px;
+  
 
 }
 ul{
@@ -83,4 +100,13 @@ ul{
     text-decoration: none;
     justify-content: center;
     list-style: none;
+    margin-right: 5em;
+    font-size: 10px;
+
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
 }
