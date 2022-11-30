@@ -9,11 +9,15 @@
     padding-bottom: 70px;
 }
 
-#move{
-    font-weight: normal;
-    padding-left: 10px;
+h2{
+    margin-top: 9px;
+    margin-bottom: 10px;
+    align-self: start;
+    margin-left: 2em;
 
 }
+
+
 
 .container {
     border-style: solid;
@@ -21,15 +25,21 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    max-width: 375px;
+    max-width: 350px;
     margin: auto;
-    padding: 10px;
+    padding: 0px;
 }
 
 h3{
-    font-size: 14px;
+    font-size: 12px;
     font-weight: normal;
+    align-self: start;
+    margin-left: 4em;
 
+}
+
+.pw{
+    display:inline-block;
 }
 input[type=text]{
     width: 70%;
@@ -62,4 +72,15 @@ button{
 a{
     color:rgb(63, 60, 253);
     text-decoration: none;
+    margin-left: 4em ;
+    align-self: start;
+    font-size: 12px;
+    margin-bottom: 10px;
+
+}
+ul{
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+    list-style: none;
 }
